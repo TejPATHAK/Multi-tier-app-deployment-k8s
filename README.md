@@ -46,5 +46,4 @@ This project highlights the best practices in deploying cloud-native application
 🙌 Credits
 Developed Tejaswi Pathak
 
-🗂️ License
-MIT License
+## **For Reference i have added Security-Multi.pdf file for better understanding and it also include output images** ##
