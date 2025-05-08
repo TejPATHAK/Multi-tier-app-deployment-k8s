@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: mydb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      team: prod
+  template:
+    metadata:
+      labels: 
+        team: prod
+    spec:
+      containers:
+      - name: container1
+        image: "mysql"
+        env: 
+        - name: MYSQL_ROOT_PASSWORD
+          value: mypassword
+        - name: MYSQL_DATABASE
+          value: tejdb
+        - name: MYSQL_USER
+          value: Tejaswi
+        - name: MYSQL_PASSWORD
+          value: mypassword

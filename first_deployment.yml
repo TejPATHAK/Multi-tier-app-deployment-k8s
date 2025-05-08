@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mydeployment1
+spec:
+  strategy:
+    type: RollingUpdate
+  replicas: 3
+  selector:
+    matchLabels:
+      team: prod
+      tier: front
+  template:
+    metadata:
+      labels:
+        team: prod
+        tier: front
+    spec:
+      containers:
+        - name: c1
+          image: nginx:v2
