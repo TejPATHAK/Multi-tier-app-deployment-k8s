@@ -46,4 +46,4 @@ This project highlights the best practices in deploying cloud-native application
 🙌 Credits
 Developed Tejaswi Pathak
 
-**For Reference i have added Security-Multi.pdf file for better understanding and it also include output images**
+**For Reference I have added Security-Multi.pdf file for better understanding and detailed explaination. Further, the pdf also include output images**
